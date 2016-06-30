@@ -1,0 +1,13 @@
+<div class="gs-main col-lg-12 col-md-12 col-sm-12 col-xs-12" text-center">
+    <h1 class="jumbotron col-lg-12 col-md-12 col-sm-12 col-xs-12" > Home Page</h1>
+    <h3 class="text-danger col-lg-12 col-md-12 col-sm-12 col-xs-12">Nested views.</h3>  
+      <div class="gs-left col-lg-6 col-md-4 col-sm-12 col-xs-12">
+        <a ui-sref=".list" class="btn btn-primary"  style="width:300px;">List</a>
+	  </div>
+	  <div class="gs-right col-lg-6 col-md-4 col-sm-12 col-xs-12">
+        <a ui-sref=".paragraph" class="btn btn-danger" style="width:300px;">Paragraph</a>
+	  </div>
+	
+</div>
+<div ui-view style="clear: both;" ></div>
+
